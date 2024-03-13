@@ -14,6 +14,9 @@ import com.shadowings.rabbittest.ui.theme.RabbitTestTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        while (true) {
+            println("Hello, world!")
+        }
         setContent {
             RabbitTestTheme {
                 // A surface container using the 'background' color from the theme
